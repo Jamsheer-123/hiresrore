@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hire_store *.css
+recursive-include hire_store *.csv
+recursive-include hire_store *.html
+recursive-include hire_store *.ico
+recursive-include hire_store *.js
+recursive-include hire_store *.json
+recursive-include hire_store *.md
+recursive-include hire_store *.png
+recursive-include hire_store *.py
+recursive-include hire_store *.svg
+recursive-include hire_store *.txt
+recursive-exclude hire_store *.pyc
